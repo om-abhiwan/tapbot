@@ -55,7 +55,7 @@
 .profileNameDiv {
   background: linear-gradient(274.63deg, #424271 0%, #2c2c49 100%);
   mix-blend-mode: color-dodge;
-  padding: 10%;
+  padding: 10% 20%;
   border-radius: 0 10px 10px 0;
   height: 100%;
 }

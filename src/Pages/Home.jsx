@@ -30,7 +30,7 @@ const Home = ({ socket }) => {
 
 
   // using to set the value to check user is currently on sleeping mode or not
-  const [isSleep] = useState("claim")
+  const [isSleep] = useState("false")
   const [isPer] = useState("100%")
 
 

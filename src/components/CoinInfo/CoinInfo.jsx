@@ -9,7 +9,6 @@ const CoinInfo = () => {
     // console.log("userInfo",userInfo)
     return (
         <>
-
             <div className="coinInfoMainDiv">
 
                 {/* ton coins info */}
