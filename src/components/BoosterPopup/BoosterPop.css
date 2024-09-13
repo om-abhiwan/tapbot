@@ -1,0 +1,105 @@
+.crossBtnDiv {
+  position: absolute;
+  right: 5px;
+  padding: 0 5%;
+  top: 15px;
+}
+
+.boosterPopMainDiv {
+  position: fixed;
+  color: white;
+  width: 90vw;
+  /* height: 45vh; */
+  height: auto;
+  padding-bottom: 5%;
+  /* padding: 5%; */
+  z-index: 1;
+  /* background-color: #30304d; */
+  text-align: center;
+  top: 25vh;
+  margin: 0 5vw;
+  /* background: url("../../assets/Booster/boosterPopBg.svg");
+  background-position: center;
+  background-size: cover; */
+  background: linear-gradient(180deg, #151b21 0%, #060606 100%);
+  border: 1px solid #e86f0c;
+  box-shadow: 0px -10px 10px 2px rgba(232, 111, 12, 0.5);
+  border-radius: 30px;
+}
+
+.boostMainHead {
+  font-size: 3.5vh;
+  font-style: normal;
+  font-weight: 700;
+  /* display: flex; */
+  align-items: center;
+  color: #ffffff;
+}
+
+.boostSubHead {
+  font-size: 2vh;
+  margin-top: 1%;
+  width: 80%;
+  margin: 0 10%;
+}
+
+.boostPurchaseBtn {
+  /* position: absolute; */
+  /* width: 70vw; */
+  height: 7vh;
+  border-radius: 30px;
+  margin-top: 5%;
+}
+
+.boostPurchaseBtn .btn {
+  width: 80%;
+  background: linear-gradient(63.44deg, #53389e 16.72%, #7f56d9 83.39%);
+  box-shadow: inset 0px 0px 6px 2px rgba(169, 101, 255, 0.45),
+    inset 0px 11px 26px -3px rgba(255, 255, 255, 0.08);
+  background-position: center;
+  background-size: cover;
+  /* margin: 0 5%; */
+  border-radius: 20px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  font-size: 3vh;
+}
+
+.boostPopCharge {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.5;
+  color: #ffffff;
+  margin-top: 5%;
+  font-size: 3vh;
+}
+
+.boostPopImg {
+  margin-top: -20%;
+}
+
+.boostPopImg img {
+  max-width: 25%;
+}
+
+.boostHeads {
+  margin-top: 5%;
+}
+
+.boosterMainDiv.blur {
+  filter: blur(5px);
+  pointer-events: none;
+
+  body {
+    overflow: hidden !important;
+  }
+}
+
+.boostPower {
+  font-size: 2.2vh;
+  width: 90%;
+  margin: 5%;
+}

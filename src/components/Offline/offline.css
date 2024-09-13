@@ -1,0 +1,17 @@
+.offlineMainDiv img{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("");
+    background-position: center;
+    background-size: cover;
+}
+
+/* .offlineMsg{
+    color: #A34449;
+    font-weight: 600;
+    font-size: 3vh;
+} */
+
+
+

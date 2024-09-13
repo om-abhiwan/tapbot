@@ -1,0 +1,88 @@
+.topCharImg {
+  height: 40vh;
+  width: 101vw;
+  display: flex;
+  flex-wrap: row wrap;
+  justify-content: center;
+  align-items: center;
+  background: url("../../assets/Rank/imgBack.svg");
+  background-position: center;
+  background-size: cover;
+}
+
+.rankLeaderImg {
+  width: 80%;
+}
+
+.goldCoinImg {
+  width: 60%;
+}
+
+.tonCoinImg {
+  width: 45%;
+}
+
+.rightLeftArr {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 32vh;
+  width: 86vw;
+  margin: 0 7vw;
+}
+
+.rankOptionDiv {
+  background: linear-gradient(180deg, #151b21 0%, #060606 100%);
+  box-shadow: 0px -3px 4px #e86f0c;
+  border-radius: 18px;
+  padding: 2%;
+  width: 95vw;
+  height: 7vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 1% auto;
+}
+
+.activerankOption {
+  background: url("../../assets/Earn/activeOption.svg");
+  color: white !important;
+  font-weight: 500;
+}
+
+.inActiverankOption {
+  background: url("../../assets/Earn/inactiveOption.svg");
+  color: white !important;
+  opacity: 0.4;
+  font-weight: 500;
+}
+
+.rankoptionDivMenu {
+  background-size: cover;
+  background-position: center;
+  width: 25vw;
+  height: 5vh;
+  border-radius: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrowInfo {
+  text-align: center;
+}
+
+.arrowInfoHead {
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.arrowInfoSubHead {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 600;
+  font-size: 0.8rem;
+}

@@ -1,0 +1,19 @@
+.noSpinDisplay{
+    position: absolute;
+    z-index: 111;
+    top: 60%;
+    font-size: 1.3rem;
+    font-weight: 600;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.tonBlur{
+    filter: blur(2px);
+    opacity: .6;
+}
+
+/* canvas{
+    pointer-events: none !important;
+} */

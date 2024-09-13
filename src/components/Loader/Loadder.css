@@ -1,0 +1,38 @@
+.loaderMainDiv {
+  width: 100vw;
+  height: 100vh;
+  /* background: url("../../assets/LoadingScr.png"); */
+  background: url("../../assets/Loading.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+.loaderProgress {
+  padding: 1%;
+  position: absolute;
+  bottom: 10%;
+  width: 80vw;
+  margin: 0 10vw;
+  background: url("../../assets/loaderb.png");
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.loaderProgress img {
+  width: 75%;
+}
+
+/* .spinn {
+  width: 10rem !important;
+  height: 10rem !important;
+}
+
+.spinner-border {
+  --bs-spinner-border-width: 0.5rem !important;
+}
+
+.loadertext {
+  font-size: 2rem;
+} */

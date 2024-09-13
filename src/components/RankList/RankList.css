@@ -1,0 +1,69 @@
+.RankListMainDiv {
+  color: white;
+  width: 95vw;
+  margin: 2% auto;
+  padding-bottom: 25%;
+}
+
+.rankUserList {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  padding: 2%;
+  margin-top: 2%;
+}
+
+.topPlayer {
+  background: url("../../assets/Rank/topPlayerBg.png");
+  background-position: center;
+}
+
+.rankLeftCol {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.rankUserProfile {
+  /* background: rgba(255, 255, 255, 0.2); */
+  border-radius: 10px;
+  padding: 5px;
+  margin-left: 2px;
+}
+
+.rankUserInfo {
+  margin-left: 5px;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+}
+
+.rankUserRank {
+  font-size: 0.7rem;
+}
+
+.rankCoins {
+  font-size: 0.8rem;
+}
+
+.rankRightCol {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.notTopPlayer {
+  background: #272a2f;
+}
+
+.userPosition p {
+  width: 40px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.3rem;
+}

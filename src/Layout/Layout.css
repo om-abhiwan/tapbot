@@ -1,0 +1,16 @@
+.main_div {
+    overflow: hidden;
+    background: url("../assets/normalBg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-color: #000; */
+}
+
+.no-Access {
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
+    text-align: center;
+}

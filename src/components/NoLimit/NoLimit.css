@@ -1,0 +1,35 @@
+.NoLimitDiv {
+  width: 96vw;
+  margin: 2vw;
+  position: fixed;
+  z-index: 11;
+  top: 40%;
+  padding: 10%;
+  background: linear-gradient(180deg, #151b21 0%, #060606 100%);
+  border: 1px solid #e86f0c;
+  box-shadow: 0px -10px 10px 2px rgba(232, 111, 12, 0.5);
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+}
+
+.NoLimithead{
+    font-size: 3vh;
+    font-weight: 700;
+}
+
+.NoLimitBtn .btn {
+  width: 90%;
+  background: linear-gradient(63.44deg, #53389e 16.72%, #7f56d9 83.39%);
+  box-shadow: inset 0px 0px 6px 2px rgba(169, 101, 255, 0.45),
+    inset 0px 11px 26px -3px rgba(255, 255, 255, 0.08);
+  border-radius: 10px !important;
+  font-size: 3vh;
+  font-weight: 700 !important;
+  color: white !important;
+  height: 6vh;
+  border-radius: 50%;
+  font-size: 3vh !important;
+  letter-spacing: 1px;
+  margin: 15% 0 0 0;
+}
