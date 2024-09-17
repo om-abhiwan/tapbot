@@ -1,0 +1,30 @@
+.aiLaoderHead {
+  color: White;
+  font-weight: 600;
+  text-align: center;
+}
+
+.aiLoaderImg img {
+  width: 90%;
+  margin: 0 5%;
+}
+
+.aiList {
+  color: white;
+  font-size: 100%;
+}
+
+.aiLoaderbtn .btn {
+  width: 90%;
+  background: linear-gradient(63.44deg, #53389e 16.72%, #7f56d9 83.39%);
+  box-shadow: inset 0px 0px 6px 2px rgba(169, 101, 255, 0.45),
+    inset 0px 11px 26px -3px rgba(255, 255, 255, 0.08);
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  font-size: 3vh;
+  margin: 0 5%;
+}

@@ -1,0 +1,132 @@
+.uploadBtn .btn {
+  width: 90%;
+  background: linear-gradient(63.44deg, #53389e 16.72%, #7f56d9 83.39%);
+  box-shadow: inset 0px 0px 6px 2px rgba(169, 101, 255, 0.45),
+    inset 0px 11px 26px -3px rgba(255, 255, 255, 0.08);
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  font-size: 3vh;
+}
+
+.uploadFile {
+  width: 90%;
+  height: 45vh;
+  border: 0.5px solid #fff;
+  border-radius: 25px;
+  margin: auto;
+  background: rgba(47, 50, 65, 0.5);
+  backdrop-filter: blur(3.10968px);
+  position: relative;
+}
+
+.uploadPlus {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  font-size: 0.8rem;
+  opacity: 0.6;
+}
+
+.uploadResultDiv {
+  background: linear-gradient(180deg, #151b21 0%, #060606 100%);
+  box-shadow: 0px -3px 4px #e86f0c;
+  border-radius: 18px;
+  padding: 2% 2% 20% 2%;
+  width: 90vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 5% auto;
+}
+
+.AIOptionDiv {
+  background: linear-gradient(180deg, #151b21 0%, #060606 100%);
+  box-shadow: 0px -3px 4px #e86f0c;
+  border-radius: 18px;
+  padding: 2%;
+  width: 90vw;
+  height: 7vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 5% auto;
+}
+
+.activeAIOption {
+  background: url("../../assets/Earn/activeOption.svg");
+}
+
+.inActiveAIOption {
+  background: url("../../assets/Earn/inactiveOption.svg");
+  opacity: 0.4;
+}
+
+.AIoptionDivMenu {
+  background-size: cover;
+  background-position: center;
+  width: 25vw;
+  height: 5vh;
+  border-radius: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.uploadResultList {
+  background: #272a2f;
+  border-radius: 8px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 4%;
+  margin: 2% 0;
+}
+
+.successAi1 {
+  color: rgba(0, 255, 26, 1);
+  font-weight: 600;
+}
+
+.successAi0 {
+  color: rgb(212, 193, 23);
+  font-weight: 600;
+}
+
+.successAi2 {
+  color: rgb(230, 22, 40);
+  font-weight: 600;
+}
+
+.uploadedFile {
+  width: 100%;
+  height: 100%;
+}
+
+.uploadedImage {
+  width: 90%;
+  max-height: 40vh;
+  margin-top: 2vh;
+  border-radius: 8px;
+}
+
+.uploadResultDivHeader{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 0 4%;
+    font-size: 80%;
+}

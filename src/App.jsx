@@ -19,6 +19,7 @@ import AI from './Pages/AI/AI';
 
 
 import { Toaster } from 'react-hot-toast';
+import AiLoader from './components/AILoader/AiLoader';
 
 
 
@@ -30,7 +31,7 @@ function App() {
   const [offline, setOffline] = useState(false)
   const [user_id, setUser_id] = useState("")
   const { userInfo, setUserInfo } = useContext(UserInfo)
-
+  const [isAiLoader, setAiLoader] = useState(false)
 
 
   const [shouldCalculate, setShouldCalculate] = useState(false);
@@ -108,6 +109,7 @@ function App() {
     setloadder(true)
     setTimeout(() => {
       setloadder(false)
+      setAiLoader(true)
     }, 2000)
   }, [])
 
@@ -146,7 +148,7 @@ function App() {
 
   // making home page unscrollable and other page can scroll
   useEffect(() => {
-    const pathsToAllowOverflow = ["task", "boost", "invite", "earn", "rank"];
+    const pathsToAllowOverflow = ["task", "boost", "invite", "earn", "rank", "ai"];
     const currentPath = location.pathname;
 
     if (pathsToAllowOverflow.some(path => currentPath.includes(path))) {
@@ -240,24 +242,24 @@ function App() {
       {
         offline ? <Offline /> : loader ?
           <Loader />
-          :
+          : isAiLoader ? <AiLoader setAiLoader={setAiLoader} /> :
 
-          <SocialContext>
-            <BoosterData>
-              <Routes>
-                <Route path='' element={<Layout />} >
-                  <Route path="/" element={<Home />} />
-                  <Route path="/task" element={<Task />} />
-                  <Route path="/boost" element={<Booster />} />
-                  <Route path="/invite" element={<Invite />} />
-                  <Route path="/earn" element={<Earn />} />
-                  <Route path="/rank" element={<Rank />} />
-                  <Route path="/ai" element={<AI />} />
-                </Route>
-              </Routes>
-              <Toaster />
-            </BoosterData>
-          </SocialContext>
+            <SocialContext>
+              <BoosterData>
+                <Routes>
+                  <Route path='' element={<Layout />} >
+                    <Route path="/" element={<Home />} />
+                    <Route path="/task" element={<Task />} />
+                    <Route path="/boost" element={<Booster />} />
+                    <Route path="/invite" element={<Invite />} />
+                    <Route path="/earn" element={<Earn />} />
+                    <Route path="/rank" element={<Rank />} />
+                    <Route path="/ai" element={<AI />} />
+                  </Route>
+                </Routes>
+                <Toaster />
+              </BoosterData>
+            </SocialContext>
 
       }
 
